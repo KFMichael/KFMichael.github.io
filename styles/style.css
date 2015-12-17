@@ -37,8 +37,9 @@ img {
     margin: 0 auto;
 }
 
+#aCote {}
 .diplome {
- font-weight: bold;
+    font-weight: bold;
 }
 
 .lieuFormation {}
@@ -55,6 +56,12 @@ img {
 #informations {
     border: 5px solid black;
 }
+
+.sujet {}
+
+.techno { }
+.posteOccupe {}
+
 
 #photoCV {
     border: 5px solid black;
