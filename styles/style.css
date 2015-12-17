@@ -1,41 +1,93 @@
-html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
+/*html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
-
+*/
 
 h1 {
-  font-size: 60px;
-  text-align: center;
+    font-size: 30px;
+    text-align: center;
 }
 
-p, li {
-  font-size: 16px;  
-  line-height: 2;
-  letter-spacing: 1px;
+p {
+    font-size: 18px;
 }
 
 
-html {
-  background-color: #00539F;
-}
+/*html {
+    background-color: #00539F;
+}*/
 
+
+/*
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}*/
 
 h1 {
-  margin: 0;
-  padding: 20px 0;  
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+    color: #00539F;
 }
 
 img {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.diplome {
+ font-weight: bold;
+}
+
+.lieuFormation {}
+
+#MenuBar {
+    border: 5px solid black;
+}
+
+#etatCivil {
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+#informations {
+    border: 5px solid black;
+}
+
+#photoCV {
+    border: 5px solid black;
+}
+
+#corpsCV {
+    border: 5px solid black;
+}
+
+#education {
+    border: 5px solid black;
+}
+
+#experience {
+    border: 5px solid black;
+}
+
+#skills {
+    border: 5px solid black;
+}
+
+#langage {
+    border: 5px solid black;
+}
+
+#logiciel {
+    border: 5px solid black;
+}
+
+#hobbies {
+    border: 5px solid black;
+}
+
+#aPropos {
+    border: 5px solid black;
 }
