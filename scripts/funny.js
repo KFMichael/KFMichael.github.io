@@ -6,3 +6,10 @@ window.onload = function() {
         duration: 1000 // milliseconds
     });
 }
+
+//fonction qui permet de faire la petite annimation lorsque la navebar est déroulée 
+$(document).ready(function () {
+			  $(".navbar-toggle").on("click", function () {
+				    $(this).toggleClass("active");
+			  });
+		});
