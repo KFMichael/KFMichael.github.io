@@ -15,12 +15,30 @@
     <link href="Font-Awesome/css/font-awesome.min.css" rel="stylesheet">
     <!--Mon style-->
     <link rel="stylesheet" href="css/style.css" media="screen">
+    <!-- un petit font -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav id="MenuBar" class="navbar navbar-default">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium deleniti iure culpa necessitatibus eaque ullam similique odio soluta, tempora, pariatur magni. Minima vel sapiente autem alias voluptatum fugit consequuntur possimus!
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">WHO</a></li>
+                        <li><a href="#">WHAT</a></li>
+                        <li><a href="#">WHERE</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <section id="etatCivil">
@@ -37,11 +55,11 @@
                 <br />
                 <div>
                     <a href="https://linkedin.com/in/kangahmichael">
-                        <i class="fa fa-linkedin fa-3x"></i>   
-                    </a>               
-                <a href="https://github.com/KFMichael/">
-                    <i class="fa fa-github fa-3x"></i> </a>
-               </div>
+                        <i class="fa fa-linkedin fa-3x"></i>
+                    </a>
+                    <a href="https://github.com/KFMichael/">
+                        <i class="fa fa-github fa-3x"></i> </a>
+                </div>
                 <br />
                 <span id="add"> 190, Rue Fr&#233;d&#233;ric Mistral, Centre International de Valbonne </span>
             </p>
@@ -185,8 +203,10 @@
             </div>
         </div>
     </div>
-    <footer id="aPropos">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, tenetur. Repudiandae sunt laboriosam, omnis qui alias numquam, molestiae perspiciatis repellendus pariatur ab consectetur eos molestias ad, nesciunt distinctio, quos ipsum.
+
+        <footer id="aPropos" class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
     </footer>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
